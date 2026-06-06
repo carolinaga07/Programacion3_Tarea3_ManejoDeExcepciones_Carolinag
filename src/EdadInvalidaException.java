@@ -7,7 +7,7 @@ public class EdadInvalidaException  extends Exception{
 
     public static void Validar(int edad) throws EdadInvalidaException{
 
-        if( edad >= 18 || edad <= 100){
+        if( edad < 18 || edad > 100){
 
              throw new EdadInvalidaException("La edad debe ser mayor o igual a 18 o menor o igual a 100.");
         }
