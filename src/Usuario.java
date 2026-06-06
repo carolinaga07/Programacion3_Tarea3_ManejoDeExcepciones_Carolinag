@@ -44,6 +44,15 @@ public class Usuario {
         Salario = salario;
     }
 
+
+    public void MostrarInfo(){
+
+        System.out.println("Nombre: "  + getNombre());
+        System.out.println("Edad: "    + getEdad());
+        System.out.println("Correo: "  + getCorreo());
+        System.out.println("Salario: " + getSalario());
+    }
+
     
 
     
